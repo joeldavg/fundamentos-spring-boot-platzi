@@ -25,7 +25,7 @@ import com.fundamentos.springboot.fundamentos.services.UserService;
 public class FundamentosApplication implements CommandLineRunner {
 	
 	Log LOGGER = LogFactory.getLog(FundamentosApplication.class);
-	
+
 	private ComponentDependecency componentDependecency;
 	private MyBean myBean;
 	private MyBeanWithDependency myBeanWithDependency;
